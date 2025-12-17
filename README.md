@@ -257,9 +257,7 @@ Minato-MD/
 📢 Official Channel
 
 <div align="center">
-
 https://img.shields.io/badge/WhatsApp-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&link=https://whatsapp.com/channel/0029VaZb8IQ9mrGc8tGETf2i
-
 </div>
 
 📄 License
