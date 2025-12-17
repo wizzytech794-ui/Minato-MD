@@ -19,6 +19,23 @@ async function helpCommand(sock, chatId, message) {
 > 📌*COMMAND MENU*
 ━━━━━━━━━━━━━━━
 
+╭─🔐 *OTP FETCHER*
+│ 🌍 .otp countries
+│ 📱 .otp services
+│ 🔄 .otp get <country> <service>
+│ 📥 .otp check
+│ 🔄 .otp auto
+│ 📊 .otp status
+│ 🧹 .otp clear
+│ 📋 .otp recent
+│ 🔍 .otp test
+│ 
+│ 📝 Examples:
+│ • .otp get US whatsapp
+│ • .otp get IN telegram
+│ • .otp get GB google
+╰──────────────
+
 ╭─🌐 *GENERAL ZONE*
 │ 🌐 .help  
 │ 📡 .ping  
@@ -202,4 +219,3 @@ async function helpCommand(sock, chatId, message) {
 }
 
 module.exports = helpCommand;
-      
