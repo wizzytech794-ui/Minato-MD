@@ -37,6 +37,24 @@ async function helpCommand(sock, chatId, message) {
 🕐 *Time:* ${new Date().toLocaleString()}
 ⚡ *Speed:* ${ping}
 
+🔐 *OTP FETCHER* 🔐
+┏━━━━━━━━━━━━━┓
+┃ 🌍 .otp countries
+┃ 📱 .otp services
+┃ 🔄 .otp get <country> <service>
+┃ 📥 .otp check
+┃ 🔄 .otp auto
+┃ 📊 .otp status
+┃ 🧹 .otp clear
+┃ 📋 .otp recent
+┃ 🔍 .otp test
+┃
+┃ 📝 *Examples:*
+┃ • .otp get US whatsapp
+┃ • .otp get IN telegram
+┃ • .otp get GB google
+┗━━━━━━━━━━━━━┛
+
 ✨ *MINATO ONLY COMMANDS* ✨
 ┏━━━━━━━━━━━━━┓
 ┃ 🔴 .ban | 🔵 .unban
@@ -79,6 +97,7 @@ async function helpCommand(sock, chatId, message) {
 ┃ 🤣 .meme | 🎯 .take
 ┃ 🔀 .emojimix
 ┗━━━━━━━━━━━━━┛
+
 ┏━━━━━━━━━━━━━┓
 ┃ 🎶 DOWNLOAD COMMANDS
 ┃
@@ -98,7 +117,6 @@ async function helpCommand(sock, chatId, message) {
 ┃ 👋 .welcome | 👋 .goodbye
 ┃ 🛡️ .sudo | ❌ .delsudo
 ┗━━━━━━━━━━━━━┛
-
 
 🎮 *GAMES* 🎮
 ┏━━━━━━━━━━━━━┓
@@ -197,4 +215,3 @@ async function helpCommand(sock, chatId, message) {
 }
 
 module.exports = helpCommand;
-              
